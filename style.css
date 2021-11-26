@@ -1,0 +1,380 @@
+.navbar {
+    background-color: skyblue;
+     height: auto;
+
+}
+:hover,
+:active,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+
+a,
+a:hover{
+    text-decoration: none;
+}
+a:hover{
+    color: dimgray !important;
+}
+.image {
+    height: 50px;
+    width: 50px;
+}
+ 
+ ::-webkit-scrollbar{
+     width: 0.625rem;
+ }
+ ::-webkit-scrollbar-track{
+     background: var(white);
+ }
+ ::-webkit-scrollbar-thumb{
+     background: var(--primary-color);
+ }
+
+ /* ####### custom css design ############ */
+ 
+  /* .main-text{
+     font-size: 2rem;
+     font-weight: 900;
+     margin-bottom: 3rem;
+     color: var(--secondry-color);
+ }
+
+ .h2{
+    font-size: 2.25rem;
+     font-weight: 700;
+     margin-bottom: 3rem;
+     text-transform: capitalize;
+     color: var(secondry-color); 
+     font-family: var(--seconday-font);
+     line-height: 3rem;
+
+ }
+
+ .h4{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    color: var(secondry-color); 
+    font-family: var(--seconday-font);
+    
+ }
+
+ .h5{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    color: var(--primary-color); 
+    font-family: var(--seconday-font);
+     
+ }
+
+ .text-banner{
+     font-size: 1rem;
+     color: white;
+     font-weight: 400;
+     line-height: 1.75rem;
+     letter-spacing: 1px;  
+
+ }
+
+/* ###############custom scrollbar ################ */
+
+/* ###############header design################ */
+
+ .navigation-wrap{
+     position: fixed;
+     width: 100%;
+     left: 0;
+     z-index: 1000;
+     transition: all 0.3s ease-in-out;
+ }
+ .navigation-wrap .nav-item{
+     padding: 0 0.625rem;
+     transition: all 200ms linear;
+ }
+ .nav-toggler:focus{
+     outline: unset;
+     border: unset;
+     box-shadow: none;
+ }
+
+ 
+
+ /* ########## Top banner ############### */
+ .top-banner{
+width: 100%;
+height: 70vh;
+background-image: url(media/photo-1598751337485-0d57b0c50b83.jpg) ;
+background-size: cover;
+padding: 16.875rem;
+background-attachment: fixed;
+background-position: center;
+ }
+ /* ########### card  ########
+
+
+#about{
+    padding: 50px 0px;
+    background: aliceblue;
+
+}
+.about-wrapper{
+    display: flex;
+}
+#about h2{
+    font-size: 1rem
+}
+#about p{
+    font-size: 1rem;
+    color: #555;
+
+}
+
+#about .small{
+
+ font-size: 1.6rem;
+ color: #555;
+ font-weight: 500;
+}
+
+.about-image{
+    flex: 1 1 400px;
+    padding: 30px;
+  
+    animation: about-img-animation 1s ease-in-out forwards;
+    transform: translateX(150%);
+
+}
+@keyframes  about-img-animation {
+      100%{
+     transform: translate(0);
+ }
+
+
+}
+    
+.about-text{
+ flex: 1 1 400px;
+ padding: 30px;
+ margin: auto;
+ animation: about-text-animation 1s ease-in-out forwards;
+    transform: translateX(-150%);
+
+}
+@keyframes  about-text-animation {
+ 100%{
+     transform: translate(0);
+  }
+  
+
+}
+  
+
+.about-image img{
+    display: block;
+    height: 300px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+}
+/* ############ features ########### */
+.features{
+    padding: 100px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img{
+    width: 100%;
+    height: 50vh;
+  
+    
+   
+}
+ .price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 600;
+    padding: 10px;
+    box-shadow: 0, 0, 10px, 01px rgba(214, 37, 37, 0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+
+}
+ .feature-img{
+    position: relative;
+   
+}
+.rating{
+    padding:3px ;
+    float: right;
+    bottom: -1px;
+    background: white;
+    right:  0;
+    position: absolute;
+}
+.features .fa{
+    font-size: 15px;
+    color: rbga(214, 37, 37, 0.18);
+    
+}
+ .feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+.feature-box{
+box-shadow: #ff5722 ;
+  margin-bottom: 30px;
+}
+
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+}
+
+.gallery-box img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+
+.banner{
+    background-image: url('media/photo-1515859005217-8a1f08870f59.jpg');
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 12%;
+    
+}
+
+.banner-highlights{
+    padding: 50px  0 ;
+    background:rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+
+}
+.booking-btn{
+    width: 100px;
+    padding: 10px 0;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-top: 30px 0;
+
+}
+
+.footer{
+    padding: 100px 20px;
+    background-image: linear-gradient(#2d557d, #9610fb);
+    color: #fff;
+}
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa {
+    padding: 5px;
+    font-size: 15px;
+}
+.footer .p{
+    margin-top: 10px;
+    background-color: #efefef;
+}
+/* ############# about us styling ########### */
+#about{
+    padding: 50px 0px;
+    background: aliceblue;
+
+}
+.about-wrapper{
+    display: flex;
+}
+#about h2{
+    font-size: 2rem;
+
+}
+#about p{
+    font-size: 1rem;
+    color: #555;
+
+}
+
+#about .small{
+
+ font-size: 1.6rem;
+ color: #555;
+ font-weight: 500;
+}
+
+.about-image{
+    flex: 1 1 400px;
+    padding: 30px;
+  
+    animation: about-img-animation 1s ease-in-out forwards;
+    transform: translateX(150%);
+
+}
+@keyframes  about-img-animation {
+      100%{
+     transform: translate(0);
+ }
+
+
+}
+    
+.about-text{
+ flex: 1 1 400px;
+ padding: 30px;
+ margin: auto;
+ animation: about-text-animation 1s ease-in-out forwards;
+    transform: translateX(-150%);
+
+}
+@keyframes  about-text-animation {
+ 100%{
+     transform: translate(0);
+  }
+  
+
+}
+  
+
+.about-image img{
+    display: block;
+    height: 300px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+}
